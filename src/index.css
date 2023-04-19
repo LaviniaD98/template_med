@@ -11,3 +11,361 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --accent-color: #F2284F;
+  --grey-color: #323232;
+  --grey-light-color: #F7F7F7;
+  --accent-green: #bedaaf;
+  --accent-orange: #ffda94;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../public/SF-Pro-Text-Regular.otf");
+}
+
+* {
+  font-family: "SF Pro Display";
+  color: var(--grey-color);
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.text-grey {
+  color: var(--grey-color);
+}
+
+.text-grey-light {
+  color: var(--grey-light-color);
+}
+
+.text-accent-green {
+  color: var(--accent-green);
+}
+
+.bg_grey_light {
+  background-color: var(--grey-light-color);
+}
+
+.text-accent-orange {
+  color: var(--accent-orange);
+}
+
+.bg_orange {
+  background-color: var(--accent-orange);
+}
+
+.bg_green {
+  background-color: var(--accent-green);
+}
+
+/* SECTION 1 */
+
+#header {
+  margin-top: 20px;
+  background-image: url("https://picsum.photos/600/400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 15px;
+  height: 400px;
+  width: 100%;
+  display: compact;
+}
+
+#header-text {
+  padding-left: 0;
+  margin-left: 0;
+  max-width: 400px;
+  position: relative;
+  margin-top: 220px;
+  z-index: 10;
+}
+
+#home_page p, h2 {
+  margin: 0 !important;
+}
+
+#header-text span, h2 {
+  background-color: white;
+  padding: 1px 20px 30px 20px;
+}
+
+#header-text span {
+  padding-top: 10px;
+}
+
+#about_us_img, #dicover_img, #section_3_img, #how_to_do_img {
+  background-image: url("https://picsum.photos/600/400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  max-height: 500px;
+  width: 100%;
+  color: white;
+}
+
+#slug {
+  border-top-right-radius: 20px;
+  border-bottom: 0;
+  width: 80px;
+  height: 40px;
+  position: relative;
+  padding-bottom: 5px !important;
+}
+
+#slug:before {
+  content: '';
+  width: 55px;
+  height: 35px;
+  font-weight: bold;
+  border: 15px solid white;
+  position: absolute;
+  bottom: -13px;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0 0 0 50px;
+  right: -40px;
+}
+
+#digited_title {
+  padding-bottom: 0;
+  width: 280px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#digited_title span {
+  z-index: 10000 !important;
+  position: relative;
+  padding: 0;
+  background-color: transparent;
+}
+
+#med_title {
+  margin-top: -1px !important;
+  border-color: white;
+  position: relative;
+  width: 200px;
+}
+
+#med_title:before {
+  content: '';
+  width: 75px;
+  height: 90px;
+  border: 15px solid white;
+  position: absolute;
+  bottom: 32px;
+  border-bottom: 0;
+  border-right: 0;
+  border-radius: 35px 0 0 0;
+  left: 185px;
+}
+
+/* SECTION 2 */
+
+#about_us h2 {
+  padding: 0 !important;
+}
+
+#about_us p {
+  font-size: 18px;
+}
+
+.card_secondary {
+  padding: 20px 15px 20px 10px;
+  border-radius: 15px;
+  font-size: 18px;
+  display: flex;
+  min-height: 230px;
+}
+
+.card_custom {
+  border-radius: 15px;
+  background-color: var(--grey-light-color);
+  padding: 20px 15px 20px 20px;
+  min-height: 100px;
+}
+
+/* SECTION 3 */
+
+#section_3_img h2,
+#section_3_img p,
+#section_3_img strong {
+  color: white;
+}
+
+/* SECTION 5 */
+
+#content_5 {
+  margin: 60px 0 0 -20px;
+  padding: 10px 0 30px 30px;
+  border-radius: 0px 10px 10px 0;
+}
+
+#content_5 span,
+#content_5 div,
+#content_5 p {
+  background-color: white;
+  padding: 0 35px 0 25px;
+  left: -30px;
+  position: relative;
+  top: 210px;
+}
+
+#content_5 span {
+  border-top-right-radius: 20px;
+  padding-top: 15px;
+  margin-bottom: -25px;
+  padding-bottom: 3px;
+}
+
+#content_5 div {
+  border-top-right-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#content_5 p {
+  border-bottom-right-radius: 20px;
+  top: 200px;
+  padding-bottom: 30px;
+}
+
+#content_5 span:before {
+  content: '';
+  width: 55px;
+  height: 35px;
+  font-weight: bold;
+  border: 15px solid white;
+  position: absolute;
+  bottom: -15px;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0 0 0 50px;
+  right: -40px;
+}
+
+/* BUTTON */
+
+#sign_button {
+  background-color: white;
+  border-radius: 40px;
+  padding: 3px 40px 3px 40px;
+  margin-top: 250px;
+  cursor: pointer;
+  transform: translate(-5%, -5%);
+  box-shadow: 0 0 17px 1px rgba(0, 0, 0, 0.34);
+  border: 0;
+}
+
+#sign_button:before {
+  content: '';
+  background: var(--accent-color);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  transition: 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  top: 0;
+  right: 0;
+  left: auto;
+  border-radius: 40px;
+}
+
+#sign_button:hover:before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+#sign_button:hover span {
+  color: white;
+  font-weight: bold;
+}
+
+#sign_button span {
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 992px) and (max-width: 1000px) {
+  #med_title:before {
+    bottom: 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  #content_5 span,
+  #content_5 div,
+  #content_5 p {
+    top: 222px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
+  #content_5 span,
+  #content_5 div,
+  #content_5 p {
+    top: 35px;
+  }
+}
+
+@media (max-width: 399px) {
+  #content_5 span,
+  #content_5 div,
+  #content_5 p {
+    top: 35px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  #med_title:before {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  #med_title {
+    padding-bottom: 40px;
+    width: 150px;
+  }
+  #digited_title {
+    width: 200px;
+  }
+}
+
+@media (max-width: 567px) {
+  #header-text {
+    margin-top: 260px;
+  }
+  .card_secondary {
+    align-items: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .card_secondary {
+    min-height: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card_secondary {
+    min-height: 150px;
+  }
+  #content_5 {
+    margin: 100px 0 0 -20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #header-text {
+    margin-top: 255px;
+  }
+}
