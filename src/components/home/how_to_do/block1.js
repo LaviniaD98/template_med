@@ -9,7 +9,7 @@ const Block1 = () => {
                     <p className="fs-6">Tutti i contenuti di</p>
                     <p className="text-accent fw-bold">Digit'Ed Med</p>
                     <div className="col-8">
-                        <p className="fs-6">sono prodotti dai <strong>migliori esperti</strong> con la finalità di farti imparare in maniera chiara come eseguire ongi <strong>procedura</strong> in ambito clinico</p>
+                        <p className="fs-6">sono prodotti dai <strong>migliori esperti</strong> con la finalità di farti imparare in maniera chiara come eseguire ogni <strong>procedura</strong> in ambito clinico</p>
                     </div>
                 </div>
             </div>

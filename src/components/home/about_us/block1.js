@@ -5,7 +5,7 @@ const Block1 = () => {
     return (
         <div className="col-12 col-md-6 my-3" data-aos="flip-up">
             <div className="card_custom" id="about_us_img">
-                <div className="d-flex justify-content-end mt-5 pt-5">
+                <div className="d-flex justify-content-end mt-5 pt-5" width="100" height="100">
                     <Button/>
                 </div>
             </div>
