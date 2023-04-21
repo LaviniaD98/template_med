@@ -46,12 +46,20 @@ code {
   color: var(--accent-green);
 }
 
+.text-accent-orange {
+  color: var(--accent-orange);
+}
+
 .bg_grey_light {
   background-color: var(--grey-light-color);
 }
 
-.text-accent-orange {
-  color: var(--accent-orange);
+.bg_grey {
+  background-color: var(--grey-color);
+}
+
+.bg_accent {
+  background-color: var(--accent-color);
 }
 
 .bg_orange {
@@ -232,7 +240,7 @@ code {
 #content_5 div {
   border-top-right-radius: 20px;
   padding-top: 10px;
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 #content_5 p {

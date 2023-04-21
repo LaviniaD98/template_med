@@ -5,7 +5,7 @@ const Block1 = () => {
         <div className="col-12 col-md-6 my-3" data-aos="flip-up">
             <div className="card_custom shadow-lg">
                 <div className="row">
-                    <h2 className="display-3 bg-transparent fw-bold mb-2">Come si <br/> fa?</h2>
+                    <h2 className="display-3 bg-transparent fw-bold mb-2">Come si fa?</h2>
                     <p className="fs-6">Tutti i contenuti di</p>
                     <p className="text-accent fw-bold">Digit'Ed Med</p>
                     <div className="col-12 col-md-8">
