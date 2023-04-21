@@ -392,7 +392,7 @@ code {
 
 @media (max-width: 700px) {
   #header-text {
-    margin-top: 420px;
+    margin-top: 400px;
   }
   #med_title:before {
     display: none;
