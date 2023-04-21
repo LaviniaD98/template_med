@@ -3,7 +3,7 @@ import Block3 from './block3';
 
 const Block2 = () => {
     return (
-        <div className="col-12 col-lg-6 my-3 h-100" data-aos="flip-up">
+        <div className="col-12 col-lg-6 my-4 h-100" data-aos="flip-up">
             <div className="card_custom shadow-lg" id="about_us">
                 <div className="row mx-auto">
                     <div className="col-12 col-lg-4 align-items-start d-flex">

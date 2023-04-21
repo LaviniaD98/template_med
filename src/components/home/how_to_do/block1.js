@@ -2,7 +2,7 @@ import React from 'react'
 
 const Block1 = () => {
     return (
-        <div className="col-12 col-md-6 my-3" data-aos="flip-up">
+        <div className="col-12 col-md-6 my-4" data-aos="flip-up">
             <div className="card_custom shadow-lg">
                 <div className="row">
                     <h2 className="display-3 bg-transparent fw-bold mb-2">Come si fa?</h2>
