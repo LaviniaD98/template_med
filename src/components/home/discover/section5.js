@@ -4,10 +4,10 @@ import Block2 from './block2';
 
 const Section5 = () => {
     return (
-            <div className="row d-flex my-5">
-                <Block1/>
-                <Block2/>
-            </div>
+        <div className="row my-5">
+            <Block1/>
+            <Block2/>
+        </div>
     )
 }
 

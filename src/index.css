@@ -1,15 +1,15 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 :root {
@@ -77,31 +77,34 @@ code {
   overflow: hidden;
   border-radius: 15px;
   height: 600px;
-  width: 100%;
   display: compact;
 }
 
 #header-text {
   padding-left: 0;
-  margin-left: 0;
   max-width: 600px;
   position: relative;
-  margin-top: 280px;
+  margin-top: 320px;
   z-index: 10;
 }
 
-#home_page p, h2 {
-  margin: 0 !important;
+#main {
+  padding: 20px 40px 50px;
 }
 
-#header-text span, h2 {
+#home_page p, #home_page h2 {
+  margin: 0 ;
+}
+
+#header-text span,
+#header-text h2 {
   background-color: white;
   padding: 20px 0 40px 50px;
   position: relative;
   z-index: 10;
 }
 
-#about_us_img, #dicover_img, #section_3_img, #how_to_do_img {
+#about_us_img, #discover_img, #section_3_img, #how_to_do_img {
   background-image: url("https://picsum.photos/600/400");
   background-repeat: no-repeat;
   background-position: center;
@@ -143,25 +146,26 @@ code {
   background-color: transparent;
 }
 
-#med_title {
-  margin-top: -25px !important;
-  border-color: white;
-  position: relative;
-  padding: 0 50px 150px 50px;
-  width: 350px;
-}
-
 #med_title:before {
   content: '';
   width: 75px;
   height: 90px;
   border: 35px solid white;
   position: absolute;
-  bottom: 165px;
+  bottom: 40px;
   border-bottom: 0;
   border-right: 0;
   border-radius: 65px 0 0 0;
   left: 315px;
+}
+
+#med_title {
+  margin-top: -40px !important;
+  border-color: white;
+  background-color: yellow;
+  padding-top: 0 !important;
+  position: relative;
+  width: 350px;
 }
 
 /* SECTION 2 */
@@ -197,6 +201,10 @@ code {
   color: white;
 }
 
+#section_3_img .upper {
+  padding-left: 25px;
+}
+
 /* SECTION 5 */
 
 #content_5 {
@@ -229,7 +237,7 @@ code {
 
 #content_5 p {
   border-bottom-right-radius: 20px;
-  padding-bottom: 120px;
+  padding-bottom: 100px;
 }
 
 #content_5 span:before {
@@ -290,10 +298,10 @@ code {
 
 @media (min-width: 1000px) and (max-width: 1200px) {
   #header-text {
-    margin-top: 250px;
+    margin-top: 340px;
   }
   #med_title:before {
-    bottom: 160px;
+    bottom: 35px;
     border: 30px solid white;
     border-bottom: 0;
     border-right: 0;
@@ -309,6 +317,11 @@ code {
   }
 }
 
+@media (max-width: 1200px) {
+  #about_us {
+    padding: 20px 30px 50px 20px;
+  }
+}
 @media (min-width: 1200px) {
   #content_5 span,
   #content_5 div,
@@ -317,18 +330,18 @@ code {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   #content_5 span,
   #content_5 div,
   #content_5 p {
-    top: 570px;
+    top: 250px;
   }
   #header-text {
-    margin-top: 280px;
+    margin-top: 365px;
   }
   #med_title:before {
     left: 270px;
-    bottom: 150px;
+    bottom: 25px;
     border: 30px solid white;
     border-bottom: 0;
     border-right: 0;
@@ -340,19 +353,22 @@ code {
     width: 300px;
   }
   .upper {
-    word-break: break-word;
+    font-size: 2.5rem;
   }
 }
 
 @media (max-width: 992px) {
   .upper {
-    padding: 15px;
+    padding: 15px 10px;
+  }
+  .card_secondary {
+    padding: 0px 18px 0px 30px;
   }
 }
 
 @media (min-width: 700px) and (max-width: 768px) {
   #header-text {
-    margin-top: 300px;
+    margin-top: 380px;
   }
   #digited_title {
     width: 350px;
@@ -361,11 +377,11 @@ code {
     width: 280px;
   }
   #med_title:before {
-    bottom: 140px;
+    bottom: 47px;
     border: 30px solid white;
     border-bottom: 0;
     border-right: 0;
-    left: 245px;
+    left: 250px;
   }
   #content_5 span,
   #content_5 div,
@@ -376,16 +392,13 @@ code {
 
 @media (max-width: 700px) {
   #header-text {
-    margin-top: 320px;
+    margin-top: 420px;
   }
   #med_title:before {
     display: none;
   }
-  #med_title {
-    width: 350px;
-  }
-  #digited_title {
-    width: 350px;
+  #med_title, #digited_title {
+    width: 310px;
   }
   #content_5 span,
   #content_5 div,
@@ -394,51 +407,39 @@ code {
   }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   #content_5 span,
   #content_5 div,
   #content_5 p {
-    left: -30px;
+    left: -40px;
   }
   .card_secondary {
     align-items: center;
-    padding: 20px 18px 20px 30px;
   }
   #header-text {
     padding-left: 0;
   }
   .card_custom {
-    padding: 20px 15px 20px 10px;
+    padding: 20px 15px 20px 30px;
     word-break: break-all;
   }
   .upper {
     font-size: 30px;
+    word-break: normal;
   }
-}
-
-@media (max-width: 490px) {
+  #discover_img {
+    padding-right: 0;
+  }
   #slug {
     width: 100%;
-    margin-left: -40px;
   }
-  #slug:before {
-    display: none;
+  #header-text {
+    padding-right: 0;
   }
   #digited_title, #med_title {
-    padding-left: 5px;
+    width: 100%;
   }
 }
 
-@media (max-width: 399px) {
-  #content_5 p,
-  #content_5 div,
-  #content_5 span {
-    background-color: transparent;
-    color: white;
 
-    position: unset;
-  }
-  #content_5 span:before {
-    display: none;
-  }
-}
+
