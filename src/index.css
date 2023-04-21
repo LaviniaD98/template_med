@@ -78,7 +78,7 @@ code {
 
 #header {
   margin-top: 20px;
-  background-image: url("../public/img/pic_1.png");
+  background-image: url("../public/img/pic_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -113,19 +113,19 @@ code {
 }
 
 #about_us_img {
-  background-image: url("../public/img/pic_2.png");
+  background-image: url("../public/img/pic_2.jpg");
 }
 
 #section_3_img {
-  background-image: url("../public/img/pic_3.png");
+  background-image: url("../public/img/pic_3.jpg");
 }
 
 #how_to_do_img {
-  background-image: url("../public/img/pic_4.png");
+  background-image: url("../public/img/pic_4.jpg");
 }
 
 #discover_img {
-  background-image: url("../public/img/pic_5.png");
+  background-image: url("../public/img/pic_5.jpg");
 }
 
 #about_us_img, #discover_img, #section_3_img, #how_to_do_img {
@@ -172,7 +172,7 @@ code {
 #med_title:before {
   content: '';
   width: 75px;
-  height: 90px;
+  height: 91px;
   border: 35px solid white;
   position: absolute;
   bottom: 40px;
