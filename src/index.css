@@ -78,7 +78,7 @@ code {
 
 #header {
   margin-top: 20px;
-  background-image: url("https://picsum.photos/600/400");
+  background-image: url("../public/img/pic_1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -112,8 +112,23 @@ code {
   z-index: 10;
 }
 
+#about_us_img {
+  background-image: url("../public/img/pic_2.png");
+}
+
+#section_3_img {
+  background-image: url("../public/img/pic_3.png");
+}
+
+#how_to_do_img {
+  background-image: url("../public/img/pic_4.png");
+}
+
+#discover_img {
+  background-image: url("../public/img/pic_5.png");
+}
+
 #about_us_img, #discover_img, #section_3_img, #how_to_do_img {
-  background-image: url("https://picsum.photos/600/400");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
