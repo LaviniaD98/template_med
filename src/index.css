@@ -92,7 +92,7 @@ code {
   padding-left: 0;
   max-width: 600px;
   position: relative;
-  margin-top: 320px;
+  margin-top: 380px;
   z-index: 10;
 }
 
@@ -105,7 +105,7 @@ code {
 }
 
 #header-text span,
-#header-text h2 {
+#header-text a {
   background-color: white;
   padding: 20px 0 40px 50px;
   position: relative;
@@ -158,37 +158,17 @@ code {
 }
 
 #digited_title {
-  padding-bottom: 25px;
-  width: 450px;
+  padding-bottom: 100px;
+  width: 350px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-}
-
-#digited_title span {
-  padding: 0;
-  background-color: transparent;
-}
-
-#med_title:before {
-  content: '';
-  width: 75px;
-  height: 91px;
-  border: 35px solid white;
-  position: absolute;
-  bottom: 40px;
-  border-bottom: 0;
-  border-right: 0;
-  border-radius: 65px 0 0 0;
-  left: 315px;
-}
-
-#med_title {
-  margin-top: -40px !important;
-  border-color: white;
-  background-color: yellow;
-  padding-top: 0 !important;
-  position: relative;
-  width: 350px;
+  display: block;
+  text-indent: -9999px;
+  height: 182px;
+  background: url(/public/img/Logo_Digitedmed_dark.svg);
+  background-repeat: no-repeat;
+  background-size: 250px 182px;
+  background-position: center;
 }
 
 /* SECTION 2 */
@@ -318,19 +298,6 @@ code {
   z-index: 1;
 }
 
-@media (min-width: 1000px) and (max-width: 1200px) {
-  #header-text {
-    margin-top: 340px;
-  }
-  #med_title:before {
-    bottom: 35px;
-    border: 30px solid white;
-    border-bottom: 0;
-    border-right: 0;
-    left: 320px;
-  }
-}
-
 @media (min-width: 1000px) {
   #content_5 span,
   #content_5 div,
@@ -358,21 +325,8 @@ code {
   #content_5 p {
     top: 250px;
   }
-  #header-text {
-    margin-top: 365px;
-  }
-  #med_title:before {
-    left: 270px;
-    bottom: 25px;
-    border: 30px solid white;
-    border-bottom: 0;
-    border-right: 0;
-  }
   #digited_title {
-    width: 380px;
-  }
-  #med_title {
-    width: 300px;
+    width: 350px;
   }
   .upper {
     font-size: 2.5rem;
@@ -390,20 +344,10 @@ code {
 
 @media (min-width: 700px) and (max-width: 768px) {
   #header-text {
-    margin-top: 380px;
+    margin-top: 381px;
   }
   #digited_title {
     width: 350px;
-  }
-  #med_title {
-    width: 280px;
-  }
-  #med_title:before {
-    bottom: 47px;
-    border: 30px solid white;
-    border-bottom: 0;
-    border-right: 0;
-    left: 250px;
   }
   #content_5 span,
   #content_5 div,
@@ -414,13 +358,10 @@ code {
 
 @media (max-width: 700px) {
   #header-text {
-    margin-top: 400px;
+    margin-top: 382px;
   }
-  #med_title:before {
-    display: none;
-  }
-  #med_title, #digited_title {
-    width: 310px;
+  #digited_title {
+    width: 350px;
   }
   #content_5 span,
   #content_5 div,
@@ -443,7 +384,7 @@ code {
   }
   #header-text {
     padding-left: 0;
-    margin-top: 420px;
+    margin-top: 400px;
   }
   .card_custom {
     padding: 20px 15px 20px 30px;
@@ -462,8 +403,14 @@ code {
   #header-text {
     padding-right: 0;
   }
-  #digited_title, #med_title {
+  #digited_title {
     width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  #digited_title {
+    background-size: 200px 182px;
   }
 }
 
